@@ -20,7 +20,9 @@
 # IDE
 *.sublime-project
 *.sublime-workspace
+.idea
 
 # vim swap files
 *.swp
 *.swo
+
