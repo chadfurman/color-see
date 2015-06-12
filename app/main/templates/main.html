@@ -4,18 +4,13 @@
   </div>
   <ion-content>
     <div class="card">
-      <img class="full-image" src="http://lorempixel.com/200/200">
+      <img id="picture" class="full-image" src="/main/assets/images/blackwhite.jpg">
       <!-- Colors extracted using http://lokeshdhakar.com/projects/color-thief/ -->
       <!-- Color names from http://www.computerhope.com/htmcolor.htm -->
-      <div class="list card row">
-        <div class="item col col-25" style="background-color:#0000cc;">&nbsp;</div>
-        <div class="item col col-75">Earth Blue</div>
+      <div id="color-container" class="color-container card row">
+        <div id="color" class="item col col-25" style="background-color:#0000cc;">&nbsp;</div>
+        <div id="color-label" class="item col col-75">Earth Blue</div>
       </div>
     </div>
   </ion-content>
-  <div class="bar bar-footer bar-stable">
-    <button id="new-picture" class="button button-stable">
-      Picture
-    </button>
-  </div>
 </ion-view>
