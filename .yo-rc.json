@@ -1,8 +1,8 @@
 {
   "generator-m": {
     "answers": {
-      "appName": "Pasquill",
-      "appId": "com.shadesoflight.pasquill",
+      "appName": "Color See",
+      "appId": "com.shadesoflight.colorSee",
       "bowerPackages": [
         "angular-dynamic-locale#~0.1.27",
         "angular-translate#~2.6.1",
@@ -16,7 +16,7 @@
       "plugins": [
         "cordova-plugin-device"
       ],
-      "appModule": "Pasquill"
+      "appModule": "ColorSee"
     }
   }
 }

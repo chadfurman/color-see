@@ -1,5 +1,5 @@
 'use strict';
-angular.module('Pasquill', [
+angular.module('ColorSee', [
   // your modules
   'main'
 ]);
