@@ -365,7 +365,9 @@ angular.module('main')
       var pixelData = canvas.getContext('2d').getImageData(event.offsetX, event.offsetY, 1, 1).data;
       var colorContainerBox = angular.element(document.getElementById('color-container'));
       var colorBox = angular.element(document.getElementById('color'));
+      var colorName = angular.element(document.getElementById('color-name'));
       var colorHexCode = '#' + pixelData[0].toString(16) + pixelData[1].toString(16) + pixelData[2].toString(16);
+      colorName.html(colorList[colorHexCode]);
       colorBox.css('background-color', colorHexCode);
       colorContainerBox.css('top', event.offsetY + 'px');
       colorContainerBox.css('left', event.offsetX + 'px');
