@@ -25,7 +25,27 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <div ui-view></div>
+    <div layout="vertical" layout-fill ng-controller="MainCtrl">
+
+      <md-content>
+        <header ng-include="'app/components/navbar/navbar.html'"></header>
+
+        <section class="jumbotron">
+          <h1>Pick a color, any color</h1>
+          <p class="lead">
+            A hybrid app for naming colors in a picture
+          </p>
+        </section>
+
+        <footer>
+          <md-toolbar layout="row" layout-align="center center">
+            <p>With ♥ from <a href="https://twitter.com/chad.furman">@Swiip</a></p>
+          </md-toolbar>
+        </footer>
+      </md-content>
+
+    </div>
+
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>

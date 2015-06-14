@@ -12,8 +12,8 @@
         "module": null
       },
       "router": {
-        "key": "ui-router",
-        "module": "ui.router"
+        "key": "none",
+        "module": null
       },
       "ui": {
         "key": "angular-material",
