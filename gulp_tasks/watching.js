@@ -22,7 +22,7 @@ var createConnectServer = function (paths) {
       app.use(serveStatic(paths[key]));
     }
     http.createServer(app)
-      .listen(9000)
+      .listen(3000)
       .on('listening', function () {
         console.log('Started connect web server on http://localhost:9000');
       });
@@ -31,7 +31,7 @@ var createConnectServer = function (paths) {
 
 var open = function () {
   if (options.open !== false) {
-    opn('http://localhost:9000');
+    opn('http://localhost:3000');
   }
 };
 
